@@ -1,0 +1,45 @@
+Git >> Version Control
+
+How things works:
+Dev 1:    v1
+Dev 2:    v2
+Dev 3:    v3
+Dev 4: new version 4
+
+Why it is used: 
+>>  It is distrubuted (on cloud)
+>>  Collaboration
+>>  Tracking Changes
+>>  Recovery
+
+Applications through which Git can be used:
+>>  Github
+>>  BitBucket
+>>  GitLabs
+>>  GitPod
+
+README File:
+>>  Documentation, any comments to run to start app etc...
+
+gitignore:
+>>  some file which you don't want to push for github, create gitignore write pertiicular file names
+
+*)  first time need to configure github in our system
+>>> git config --global user.name "meetrajyaguru536-web"
+>>> git config --global user.email "meetrajyaguru536@gmail.com"
+
+*) add or set automatic cmd line coloring for easy reading
+>>> git config --global color.ui auto
+
+*) Mandatory comments
+>>> git init: Initializes empty git repo in the same folder location
+>>> git remote add origin (repo url) https://github.com/meetrajyaguru536-web/GitDemo.git
+
+commands:-
+>>> git pull origin main (pull data from repo)
+>>> git status (gives you status of files added or not)
+adding files
+>>> git add . (all files/perticular file)
+>>> git status
+>>> git commit -m "Commit Message"
+>>> git push
