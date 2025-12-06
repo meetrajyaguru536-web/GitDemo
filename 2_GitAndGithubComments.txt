@@ -43,3 +43,14 @@ adding files
 >>> git status
 >>> git commit -m "Commit Message"
 >>> git push
+
+--> If you want to merge both the main one and the master branch which you just made by pushing, 
+> go to pull request
+> comparing from master to main branch
+> create a oull request
+> no conflicts with the base branch
+> merge pull request
+> confirm merge
+
+--> add a file in an individual branch
+>> git checkout -b "branch name"
